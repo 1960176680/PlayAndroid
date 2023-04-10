@@ -12,6 +12,7 @@ import com.zj.play.main.MainActivity
 class WelcomeActivity : BaseActivity(),
     View.OnClickListener {
 
+
     private lateinit var binding: ActivityWelcomeBinding
     private var exitTime: Long = 0
     private var animationTime: Long = 500
